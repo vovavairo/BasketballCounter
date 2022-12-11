@@ -1,0 +1,35 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <div class="home"><h3>HOME</h3></div>
+                <p id="homeEl">0</p>
+                <div class="btnwrap">
+                       <button class="btn" onclick="plusone(1, homeEl)">+1</button>
+                       <button class="btn" onclick="plusone(2, homeEl)">+2</button>
+                       <button class="btn" onclick="plusone(3, homeEl)">+3</button>
+                       <button class="btn" onclick="plusone(-1, homeEl)">-1</button>
+                </div>
+                
+            <button class="btn" onclick="reset1()">reset</button>
+            </div>
+            <div>
+                <div class="home"><h3>GUEST</h3></div>
+                <p id="guestEl">0</p>
+                    <div class="btnwrap">
+                        <button class="btn" onclick="plusone(1, guestEl)">+1</button>
+                       <button class="btn" onclick="plusone(2, guestEl)">+2</button>
+                       <button class="btn" onclick="plusone(3, guestEl)">+3</button>
+                       <button class="btn" onclick="plusone(-1, guestEl)">-1</button>
+                    </div>
+                    <button class="btn" onclick="reset2()">reset</button>
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+    
+</html>
